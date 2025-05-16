@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+html {
+  font-size: 100%;
+}
+body {
+  color: #333;
+  font-size: 1rem;
+  font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+
+
+
+
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+header ul{
+    display: flex;
+}
+header a{
+        color: #fff;
+}
+header .header_body{
+    display: flex;
+}
+
+
+#mainvisual{
+    position: relative;
+}
+#mainvisual .main_text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    color: #fff;
+}
+
+#leadtext{
+    
+}
